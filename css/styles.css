@@ -510,4 +510,11 @@ width: 528px;
 height: 580px;
 background-color: #FFFFFF;
 }
+.modal-close-btn{
+width: 30px;
+height: 30px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+}
 /* ======= END MODAL ======= */
