@@ -500,6 +500,7 @@ left: 0;
 width: 100vw;
 height: 100vh;
 background-color: rgba(0, 0, 0, 0.2);
+transition: all 250ms linear;
 }
 .modal{
 position: absolute;
@@ -511,10 +512,21 @@ height: 580px;
 background-color: #FFFFFF;
 }
 .modal-close-btn{
+position: absolute;
+top: 8px;
+right: 8px;
+display: flex;
 width: 30px;
 height: 30px;
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
+cursor: pointer;
+align-items: center;
+}
+.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 /* ======= END MODAL ======= */
